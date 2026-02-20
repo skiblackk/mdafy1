@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "./integrations/supabase/client";
 import { useToast } from "./use-toast";
 import { LogOut, Save, Users, Trash2, Activity, KeyRound, Eye, EyeOff, Calendar, DollarSign, CheckCircle, Settings, Image } from "lucide-react";
 

@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { TrendingUp, Shield, Users, DollarSign, BarChart3, Clock } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
-import ChatWidget from "@/components/ChatWidget";
+import heroBg from "./assets/hero-bg.jpg";
+import ChatWidget from "./components/ChatWidget";
 
 const features = [
   {

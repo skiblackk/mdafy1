@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { supabase } from "@/integrations/supabase/client";
-import { useToast } from "@/hooks/use-toast";
+import { supabase } from "../integrations/supabase/client";
+import { useToast } from "../use-toast";
 import { KeyRound, Save, Trash2, Eye, EyeOff, Plus } from "lucide-react";
 
 interface BrokerCredential {

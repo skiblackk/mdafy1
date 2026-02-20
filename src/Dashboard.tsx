@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "./integrations/supabase/client";
 import { DollarSign, TrendingUp, Calendar, LogOut, LinkIcon, ExternalLink, BarChart3 } from "lucide-react";
-import BrokerCredentialsForm from "@/components/BrokerCredentialsForm";
-import AgreementModal from "@/components/AgreementModal";
-import PaymentSection from "@/components/PaymentSection";
-import ChatWidget from "@/components/ChatWidget";
+import BrokerCredentialsForm from "./components/BrokerCredentialsForm";
+import AgreementModal from "./components/AgreementModal";
+import PaymentSection from "./components/PaymentSection";
+import ChatWidget from "./components/ChatWidget";
 
 interface ClientData {
   id: string;
